@@ -9,5 +9,8 @@
 import UIKit
 
 class Hello: NSObject {
-
+    let noWarning = NSNumber() as! Int
+    let hasWarning = NSNumber() as! Int
+    let noWarning2 = NSNumber() as! Int // swiftlint:disable:this force_cast
+    let noWarning3 = NSNumber() as! Int
 }
